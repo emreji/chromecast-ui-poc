@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 5%;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.details {
+    float: left;
+    width: 60%;
+}
+
+.logo {
+    width: 100px;
+    padding-top: 5px;
+}
+
+.image {
+    float: right;
+    width: 37%;
+    padding: 5px;
+}
+
+.title-image {
+    border-radius: 15px;
+    width: 250px;
+    height: 300px;
+}
+
+.title {
+    line-height: 40px;
+    margin: 10px 0;
+    font-size: xx-large;
+    color: mediumturquoise;
+}
+
+.date {
+    color: darkgray;
+    font-size: smaller;
+}
+
+.artist {
+    font-size: large;
+    color: beige;
+}
+
+.live {
+    margin-top: 5px;
+    font-size: smaller;
+}
+
+.live-dot {
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    margin: 0 5px;
+    background-color: red;
+    display: inline-block;
+}
+
+.songlist-heading {
+    font-size: x-large;
+}
+
+.recent-songs {
+    padding: 5% 15%;
+    clear: both;
+}
+
+.songlist-heading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin: 8px;
+}
+
+.recent-songs ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-songs ul li {
+    width: 120px;
+    height: auto;
+    display: inline-block;
+    white-space: normal;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+.song-title {
+    white-space: normal;
+    float: left;
+    width: 100%;
+    height: auto;
+    word-break: break-word;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+}
+
+.recent-songs img {
+    width: inherit;
+}
